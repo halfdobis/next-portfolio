@@ -19,7 +19,7 @@ const Home = () => {
             initial="hidden"
             animate="show"
             exit="hidden"
-            className="h1"
+            className="h1 text-white/90"
           >
             Hi, My Name <br /> Is{" "}
             <span className="text-accent">Adaobi Ezenwa</span>
@@ -29,7 +29,7 @@ const Home = () => {
             initial="hidden"
             animate="show"
             exit="hidden"
-            className="max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl-mb-16"
+            className="max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16"
           >
             I build things for the web: A Full-Stack Developer Specializing in
             UI/UX, Frontend, Backend, and Blockchain Development.

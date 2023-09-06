@@ -10,7 +10,12 @@ import Nav from '../components/Nav';
 import Header from '../components/Header';
 import TopLeftImg from '../components/TopLeftImg';
 
-const Layout = ({ children }) => {
+export const metadata = {
+  title: "halfdobis",
+  description: 'I like to build cool stuff for the web'
+}
+
+export default function Layout ({ children }) {
   return (
     <div className={`page bg-site text-white bg-cover bg-no-repeat ${sora.variable} font-sora relative`}>
     <TopLeftImg />
@@ -21,4 +26,3 @@ const Layout = ({ children }) => {
   )
 };
 
-export default Layout;
