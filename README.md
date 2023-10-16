@@ -1,4 +1,3 @@
-halfdobis/README.md 
 
 
 export const aboutMe = {
