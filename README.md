@@ -1,25 +1,12 @@
+👋 Hey there, I'm Adaobi! 🚀
+
+🚀 Currently powering up at Abound Consult and BitNorm,
+🌱 Learning Node.js and leveling up React.js and Next.js,
+🤝 Open to teaming up on exciting frontend projects,
+💬 Chat with me about coding and unleashing creativity,
+📧 Reach me at misdobis@gmail.com,
+🎵 Fun fact: My code dances to the rhythm of background music! 🎶✨
 
 
-export const aboutMe = {
-   name: "Adaobi Ezenwa",
-   skills: [HTML, CSS, JavaScript, ReactJS, NodeJS, NextJS, Tailwind, MongoDB, Git, GitHub],
-   projects: "https://halfdobis.vercel.app",
-   contact: "missdobis@gmail.com",
-};
-
-const MyProfile =  () => {
-return (
- <section>
-   {aboutMe.map (( item, index ) => {
-   return (
-   <div key={ index }>
-     <div>Hi there 👋, my name is {item.name}.</div>
-   <div>🌱 My skills include: {item.skills}, and I’m currently learning nestjs, UI/UX, and improving my frontend skill.</div>
-   <div>👨‍💻 All of my projects are available at {item.projects}</div>
-   <div>📫 You can reach me  here - {item.contact}</div>
-   </div>
-   );
-   })}
- </section>
-);
-};
+💻 Tech Stack:
+HTML CSS JavaScript Netlify NodeJS NextJS TypeScript TailwindCSS React Figma Git GitHub MongoDB
